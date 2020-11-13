@@ -550,7 +550,7 @@ class Mailupy:
         :return: Recipient ID
         :rtype: int
         """
-        query_parameters: ""
+        query_parameters = ""
         payload = json.dumps({
             "Name": recipient_name,
             "Email": recipient_email,
